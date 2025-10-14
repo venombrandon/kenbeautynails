@@ -1,0 +1,22 @@
+<script lang="ts">
+	import '../app.css';
+	import favicon from '$lib/assets/favicon.png';
+	import Header from '$lib/components/Header.svelte';
+
+	let { children } = $props();
+</script>
+
+<svelte:head>
+	<link rel="icon" href={favicon} />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+		rel="stylesheet"
+	/>
+</svelte:head>
+
+<div class="min-h-screen bg-[#e7e2e2]">
+	<Header />
+	{@render children?.()}
+</div>
