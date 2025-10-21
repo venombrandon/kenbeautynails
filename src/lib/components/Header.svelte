@@ -32,7 +32,7 @@
 					<li><a href="/" class={linkBase}>Home</a></li>
 
 					<li class="relative">
-						<a href="/" class={linkBase}>Leistungen</a>
+						<a href="/leistungen" class={linkBase}>Leistungen</a>
 					</li>
 
 					<li><a href="/galerie" class={linkBase}>Galerie</a></li>
@@ -40,7 +40,8 @@
 				</ul>
 
 				<a
-					href="/buchen"
+					href="https://kenbeautynails.setmore.com/book?step=time-slot&products=88c9fb65-6b34-4088-a936-50251fdc0400&type=service&staff=73b10dfb-56bd-4554-8e90-df71e12631b9&staffSelected=true"
+					target="_blank"
 					class="inline-flex items-center rounded-full bg-[#b98b58] px-5 py-2 font-medium tracking-wide text-white shadow-sm transition-colors duration-200 hover:bg-[#a17b4d]"
 				>
 					Termin buchen
@@ -72,7 +73,8 @@
 				<a href="/kontakt" class="block rounded-lg px-3 py-2 hover:text-[#b98b58]">Kontakt</a>
 
 				<a
-					href="/buchen"
+					href="https://kenbeautynails.setmore.com/"
+					target="_blank"
 					class="mt-2 inline-flex items-center rounded-full bg-[#b98b58] px-5 py-2 font-medium tracking-wide text-white shadow-sm transition-colors duration-200 hover:bg-[#a17b4d]"
 				>
 					Termin buchen

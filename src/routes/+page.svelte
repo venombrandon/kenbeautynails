@@ -62,7 +62,8 @@
 
 			<div class="mt-6 flex flex-wrap gap-3">
 				<a
-					href="/buchen"
+					href="https://kenbeautynails.setmore.com/book?step=time-slot&products=88c9fb65-6b34-4088-a936-50251fdc0400&type=service&staff=73b10dfb-56bd-4554-8e90-df71e12631b9&staffSelected=true"
+					target="_blank"
 					class="inline-flex items-center gap-2 rounded-full bg-[#b98b58] px-6 py-3 font-medium text-white shadow-sm transition-colors hover:bg-[#a17b4d]"
 				>
 					Termin sichern <ArrowRight size={18} />
@@ -141,7 +142,8 @@
 					>Kontakt</a
 				>
 				<a
-					href="/buchen"
+					href="https://kenbeautynails.setmore.com/book?step=time-slot&products=88c9fb65-6b34-4088-a936-50251fdc0400&type=service&staff=73b10dfb-56bd-4554-8e90-df71e12631b9&staffSelected=true"
+					target="_blank"
 					class="rounded-full bg-[#b98b58] px-4 py-2 text-white transition-colors hover:bg-[#a17b4d]"
 					>Termin buchen</a
 				>
