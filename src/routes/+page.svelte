@@ -8,18 +8,20 @@
 	];
 
 	const rating = { value: 4.9, count: 128 };
+
+	// Main SLogan: Schöne Nägel – stilvoll und präzise.
 </script>
 
 <svelte:head>
 	<title>Elegante Nägel, entspannter Service | KEN Beauty Nails</title>
 	<meta
 		name="description"
-		content="Nagelstudio in Musterstadt: Maniküre, Gel, Shellac & Nail Art. Hochwertige Produkte, sterile Hygiene & flexible Termine. Jetzt Termin sichern."
+		content="Nagelstudio in Günzburg: Maniküre, Gel, Shellac & Nail Art. Hochwertige Produkte, sterile Hygiene & flexible Termine. Jetzt Termin sichern."
 	/>
-	<meta property="og:title" content="KEN Beauty Nails – Nagelstudio in Musterstadt" />
+	<meta property="og:title" content="KEN Beauty Nails – Nagelstudio in Günzburg" />
 	<meta
 		property="og:description"
-		content="Elegante Nägel, entspannter Service. Termine jetzt online buchen."
+		content="Schöne Nägel – stilvoll und präzise. Termine jetzt online buchen."
 	/>
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content="/nails/main.png" />
@@ -88,7 +90,7 @@
 
 		<div class="aspect-[4/3] overflow-hidden rounded-3xl bg-[#e7e2e2] shadow-lg">
 			<img
-				src="/nails/main.png"
+				src="/nails/main.webp"
 				alt="Nageldesign Close-up"
 				class="h-full w-full object-cover"
 				loading="lazy"
