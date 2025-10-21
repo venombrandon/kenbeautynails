@@ -65,7 +65,6 @@
 				class="space-y-2 bg-[#e7e2e2]/90 px-4 py-4 font-semibold tracking-wide text-[#3a3a3a] uppercase backdrop-blur"
 			>
 				<a href="/" class="block rounded-lg px-3 py-2 hover:text-[#b98b58]">Home</a>
-				<a href="/ueber-uns" class="block rounded-lg px-3 py-2 hover:text-[#b98b58]">Über uns</a>
 
 				<a href="/" class="block rounded-lg px-3 py-2 hover:text-[#b98b58]">Leistungen</a>
 
