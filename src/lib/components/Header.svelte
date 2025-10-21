@@ -40,7 +40,7 @@
 				</ul>
 
 				<a
-					href="https://kenbeautynails.setmore.com/book?step=time-slot&products=88c9fb65-6b34-4088-a936-50251fdc0400&type=service&staff=73b10dfb-56bd-4554-8e90-df71e12631b9&staffSelected=true"
+					href="https://kenbeautynails.setmore.com/book?step=time-slot&products=13b7f265-ac5e-47fd-8bdd-96ea25d8a754&type=service&staff=e601a373-7f6d-4140-980c-ae947f3a19ad&staffSelected=true"
 					target="_blank"
 					class="inline-flex items-center rounded-full bg-[#b98b58] px-5 py-2 font-medium tracking-wide text-white shadow-sm transition-colors duration-200 hover:bg-[#a17b4d]"
 				>

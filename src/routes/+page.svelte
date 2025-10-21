@@ -62,7 +62,7 @@
 
 			<div class="mt-6 flex flex-wrap gap-3">
 				<a
-					href="https://kenbeautynails.setmore.com/book?step=time-slot&products=88c9fb65-6b34-4088-a936-50251fdc0400&type=service&staff=73b10dfb-56bd-4554-8e90-df71e12631b9&staffSelected=true"
+					href="https://kenbeautynails.setmore.com/book?step=time-slot&products=13b7f265-ac5e-47fd-8bdd-96ea25d8a754&type=service&staff=e601a373-7f6d-4140-980c-ae947f3a19ad&staffSelected=true"
 					target="_blank"
 					class="inline-flex items-center gap-2 rounded-full bg-[#b98b58] px-6 py-3 font-medium text-white shadow-sm transition-colors hover:bg-[#a17b4d]"
 				>
@@ -91,7 +91,7 @@
 				src="/nails/main.png"
 				alt="Nageldesign Close-up"
 				class="h-full w-full object-cover"
-				loading="eager"
+				loading="lazy"
 			/>
 		</div>
 	</div>
@@ -142,7 +142,7 @@
 					>Kontakt</a
 				>
 				<a
-					href="https://kenbeautynails.setmore.com/book?step=time-slot&products=88c9fb65-6b34-4088-a936-50251fdc0400&type=service&staff=73b10dfb-56bd-4554-8e90-df71e12631b9&staffSelected=true"
+					href="https://kenbeautynails.setmore.com/book?step=time-slot&products=13b7f265-ac5e-47fd-8bdd-96ea25d8a754&type=service&staff=e601a373-7f6d-4140-980c-ae947f3a19ad&staffSelected=true"
 					target="_blank"
 					class="rounded-full bg-[#b98b58] px-4 py-2 text-white transition-colors hover:bg-[#a17b4d]"
 					>Termin buchen</a
