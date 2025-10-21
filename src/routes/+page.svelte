@@ -89,12 +89,7 @@
 		</div>
 
 		<div class="aspect-[4/3] overflow-hidden rounded-3xl bg-[#e7e2e2] shadow-lg">
-			<img
-				src="/nails/main.webp"
-				alt="Nageldesign Close-up"
-				class="h-full w-full object-cover"
-				loading="lazy"
-			/>
+			<img src="/nails/main.webp" alt="Nageldesign Close-up" class="h-full w-full object-cover" />
 		</div>
 	</div>
 </section>

@@ -19,7 +19,7 @@
 		<div class="flex items-center justify-between py-3">
 			<a href="/" class="flex items-center">
 				<img
-					src="logo.png"
+					src="logo.webp"
 					alt="Logo"
 					class="h-16 transition-transform duration-200 hover:scale-105 md:h-20"
 				/>

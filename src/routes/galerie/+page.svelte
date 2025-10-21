@@ -1,17 +1,24 @@
 <script lang="ts">
-	type Pic = { base: string; alt: string };
-	const images: Pic[] = [
-		{ base: '/nails/galerie/1', alt: 'Nude Maniküre mit sanftem Glanz' },
-		{ base: '/nails/galerie/2', alt: 'French Nails, klassisch' },
-		{ base: '/nails/galerie/3', alt: 'Rosenholz-Farbton, kurz' },
-		{ base: '/nails/galerie/4', alt: 'Soft Pink Gelmodellage' },
-		{ base: '/nails/galerie/5', alt: 'Shellac Rot, hochglänzend' },
-		{ base: '/nails/galerie/6', alt: 'Marmor-Design, subtil' },
-		{ base: '/nails/galerie/7', alt: 'Milky Nails, natürlich' },
-		{ base: '/nails/galerie/8', alt: 'Dezentes Glitzer-Highlight' },
-		{ base: '/nails/galerie/9', alt: 'Ovalform, French modern' },
-		{ base: '/nails/galerie/10', alt: 'Ovalform, French modern' }
-	];
+	// IDs 1..10 – Dateiendungen brauchst du NICHT angeben
+	const ids = Array.from({ length: 10 }, (_, i) => String(i + 1));
+
+	type Pic = { id: string; alt: string };
+	const images: Pic[] = ids.map((id, i) => ({
+		id,
+		alt:
+			[
+				'Nude Maniküre mit sanftem Glanz',
+				'French Nails, klassisch',
+				'Rosenholz-Farbton, kurz',
+				'Soft Pink Gelmodellage',
+				'Shellac Rot, hochglänzend',
+				'Marmor-Design, subtil',
+				'Milky Nails, natürlich',
+				'Dezentes Glitzer-Highlight',
+				'Ovalform, French modern',
+				'Sommer-Design, Pastell'
+			][i] ?? `Bild ${id}`
+	}));
 
 	let open = false;
 	let idx = 0;
@@ -34,13 +41,19 @@
 				on:click={() => openAt(i)}
 				aria-label={`Bild vergrößern: ${img.alt}`}
 			>
-				<img
-					src={`${img.base}.webp`}
-					alt={img.alt}
-					class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]"
-					loading="eager"
-					sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
-				/>
+				<!-- Erst WebP versuchen, sonst PNG laden -->
+				<picture>
+					<source srcset={`/nails/galerie/${img.id}.webp`} type="image/webp" />
+					<img
+						src={`/nails/galerie/${img.id}.png`}
+						alt={img.alt}
+						class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]"
+						loading="lazy"
+						decoding="async"
+						sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
+					/>
+				</picture>
+
 				<div
 					class="pointer-events-none absolute inset-0 bg-black/0 transition-colors group-hover:bg-black/10"
 				></div>
