@@ -66,13 +66,13 @@
 			>
 				<a href="/" class="block rounded-lg px-3 py-2 hover:text-[#b98b58]">Home</a>
 
-				<a href="/" class="block rounded-lg px-3 py-2 hover:text-[#b98b58]">Leistungen</a>
+				<a href="/leistungen" class="block rounded-lg px-3 py-2 hover:text-[#b98b58]">Leistungen</a>
 
 				<a href="/galerie" class="block rounded-lg px-3 py-2 hover:text-[#b98b58]">Galerie</a>
 				<a href="/kontakt" class="block rounded-lg px-3 py-2 hover:text-[#b98b58]">Kontakt</a>
 
 				<a
-					href="https://kenbeautynails.setmore.com/"
+					href="https://kenbeautynails.setmore.com/book?step=time-slot&products=13b7f265-ac5e-47fd-8bdd-96ea25d8a754&type=service&staff=e601a373-7f6d-4140-980c-ae947f3a19ad&staffSelected=true"
 					target="_blank"
 					class="mt-2 inline-flex items-center rounded-full bg-[#b98b58] px-5 py-2 font-medium tracking-wide text-white shadow-sm transition-colors duration-200 hover:bg-[#a17b4d]"
 				>

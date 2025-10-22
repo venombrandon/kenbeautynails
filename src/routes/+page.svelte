@@ -7,13 +7,34 @@
 		{ icon: Clock, title: 'Flexible Termine', body: 'Auch kurzfristig buchbar.' }
 	];
 
-	const rating = { value: 4.9, count: 128 };
+	const ratings = [
+		{
+			value: 5,
+			comment:
+				'Ein großartiges Nagelstudio mit perfektem Service und hochwertigen Ergebnissen. Das Team ist professionell, freundlich und setzt jeden Wunsch um. Meine Nägel sehen immer fantastisch aus – klare Empfehlung! ',
+			reviewer: 'Lucy V.'
+		},
+		{
+			value: 5,
+			comment:
+				'Ken ist ein Perfektionist, man darf erst gehen, wenn es perfekt ist. Ich war sehr zufrieden, Fingernägel und Füße sehen aus wie neu. Sehr zu empfehlen',
+			reviewer: 'Karen J.'
+		},
+		{
+			value: 5,
+			comment:
+				'Wunderschöne Nägel und eine sehr gut gemachte Komplett-Nagellackierung. Freundliches Personal und angenehme Atmosphäre. Ich kann es nur empfehlen. Sie werden es nicht bereuen.',
+			reviewer: 'Dragana G.'
+		}
+	];
+
+	const rating = { value: 4.8, count: 278 };
 
 	// Main SLogan: Schöne Nägel – stilvoll und präzise.
 </script>
 
 <svelte:head>
-	<title>Elegante Nägel, entspannter Service | KEN Beauty Nails</title>
+	<title>Schöne Nägel, stilvoll und präzise | KEN Beauty Nails</title>
 	<meta
 		name="description"
 		content="Nagelstudio in Günzburg: Maniküre, Gel, Shellac & Nail Art. Hochwertige Produkte, sterile Hygiene & flexible Termine. Jetzt Termin sichern."
@@ -56,7 +77,7 @@
 	<div class="mx-auto grid max-w-6xl items-center gap-10 px-4 py-16 md:grid-cols-2">
 		<div>
 			<h1 class="font-[Fraunces] text-4xl leading-tight md:text-5xl">
-				Elegante Nägel, <span class="text-[#b98b58]">entspannter Service</span>.
+				Schöne Nägel, <span class="text-[#b98b58]">stilvoll und präzise</span>.
 			</h1>
 			<p class="mt-4 text-[#3a3a3a]/80">
 				Maniküre, Gel, Shellac und Nail Art – präzise, sauber und schön.
@@ -113,13 +134,13 @@
 <section class="mx-auto max-w-6xl px-4 py-12">
 	<h2 class="mb-6 font-[Fraunces] text-3xl">Was Kund:innen sagen</h2>
 	<div class="grid gap-6 md:grid-cols-3">
-		{#each [1, 2, 3] as _}
+		{#each ratings as r}
 			<figure class="rounded-2xl border border-black/5 bg-white/80 p-6 backdrop-blur">
 				<div class="text-lg">★ ★ ★ ★ ★</div>
 				<blockquote class="mt-2 text-[#3a3a3a]/80">
-					„Super freundlich und sehr sauber gearbeitet. Absolute Empfehlung!“
+					{r.comment}
 				</blockquote>
-				<figcaption class="mt-4 text-sm text-[#3a3a3a]/60">— Kundin A</figcaption>
+				<figcaption class="mt-4 text-sm text-[#3a3a3a]/60">— {r.reviewer}</figcaption>
 			</figure>
 		{/each}
 	</div>
